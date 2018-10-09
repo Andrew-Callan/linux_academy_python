@@ -1,0 +1,10 @@
+#!/usr/bin/env python3.7
+
+message = input("Please give me a message to display ")
+count = input("How many times should I print it? ").strip()
+if count:
+    count=int(count)
+else:
+    count=1
+print(f"{message}\n" * count)
+
